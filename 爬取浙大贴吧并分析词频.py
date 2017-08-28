@@ -1,4 +1,3 @@
-'''
 import requests, sys, webbrowser,bs4
 from bs4 import BeautifulSoup
 def GetURL(URL,list_b):
@@ -96,7 +95,7 @@ with open('tieba.txt','w',encoding='utf8') as g:
                 #print(current_url)
             topic_index=topic_index+1
             g.write('\n')
-'''
+
 #以下分词并统计频率
 
 import sys
