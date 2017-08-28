@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-  
 import requests, sys, webbrowser,bs4
 from bs4 import BeautifulSoup
 def GetURL(URL,list_b):
